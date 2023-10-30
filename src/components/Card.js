@@ -2,6 +2,7 @@ import { Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
+import { withTheme } from "@emotion/react";
 
 const Card = withTheme(({ title, description, imageSrc, theme }) => {
   // Implement the UI for the Card component according to the instructions.
