@@ -116,4 +116,4 @@ const LandingSection = () => {
   );
 };
 
-export default ContactMeSection;
+export default LandingSection;
